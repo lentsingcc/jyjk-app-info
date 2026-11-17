@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>JYJK · 隐私政策</title>
+<link rel="stylesheet" href="style.css">
+<header><a href="index.html" class="brand">JYJK</a><nav><a href="privacy.html" aria-current="page">隐私政策</a><a href="terms.html">使用条款</a></nav></header>
+<main>
+<p class="eyebrow">个人自用应用 · 2026-11-18</p><h1>隐私政策</h1>
+<p>本说明描述 JYJK 对账户所有者授权数据的处理。本应用由账户所有者自行部署维护，不面向公众提供账户服务。</p>
+<section><h2>访问的数据与权限</h2><p>Google Sheets 权限 <code>https://www.googleapis.com/auth/spreadsheets</code> 可访问授权账户有权访问的电子表格。JYJK 的运行配置仅指定一个项目工作簿，用于读取提醒价候选、更新持仓及确认记录、显示行情和服务状态；应用不主动扫描其他工作簿。</p><p>Google Drive 权限 <code>https://www.googleapis.com/auth/drive.file</code> 用于应用创建或由用户明确选定的文件。当前应用在专用私人目录中保存 Markdown 记录，核对文件内容摘要以防重复归档和覆盖人工修改；不申请整个 Drive 的访问权限。</p><p>应用也处理本人主动输入的账户简称、证券代码、数量、价格、币种、时间、备注与截图，以及用于私聊绑定的 Telegram 标识。截图识别和文字解析结果需本人确认，不能直接视为成交。</p></section>
+<section><h2>用途与数据流向</h2><p>这些数据仅用于个人交易记录、持仓核对、条件提醒、风险信息和手动复盘。运行账本及日志保存在本人控制的云服务器；指定面板和归档文件保存在本人 Google 账户中。按本人启用的功能，查询回复与提醒通过 Telegram 发至本人已绑定的私聊。</p><p>Google、云服务器提供商及 Telegram 按各自的服务政策处理其服务中的数据。JYJK 不出售用户数据，不将其用于广告定向，也不以这些数据训练通用 AI 模型。当前未配置把 Google 数据自动传给外部生成式 AI API 的流程。本人手动将资料交给 Codex 或其他工具时，应另行核对所选资料与该工具的数据政策。</p><p>JYJK 对通过 Google API 获得的信息的使用与传输遵守 <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API 服务用户数据政策</a>，包括其中的 Limited Use 要求。</p></section>
+<section><h2>存储、保留与删除</h2><p>OAuth 凭证保存在本人控制的本机和服务器专用配置目录中，限制文件访问权限，不放入源码发布包、公开网页或 Google Drive 归档。业务记录保留至账户所有者决定删除；恢复备份可能保留历史版本。</p><p>本人可在 <a href="https://myaccount.google.com/connections">Google 账户的第三方连接管理</a>中撤销授权。撤销会停止后续授权访问，但不会自动删除已生成的表格、Drive 归档、服务器账本、Telegram 消息或备份；这些内容需要在各自位置另行管理。</p></section>
+<section><h2>说明页面与联系</h2><p>本网站为静态说明页，不要求登录，不接收交易资料，也不嵌入分析或广告脚本。托管提供商可能记录常规访问日志。应用的维护联系人为 OAuth 授权页面所列支持邮箱；个人部署中的数据管理由账户所有者处理。</p><p>功能、数据用途或授权范围发生变化时，应先更新本说明并取得相应授权。</p></section>
+<footer><a href="index.html">返回应用介绍</a> · <a href="terms.html">使用条款</a></footer>
+</main>
+</html>
